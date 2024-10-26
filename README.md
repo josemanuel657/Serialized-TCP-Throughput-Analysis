@@ -1,10 +1,17 @@
 # Serialized-TCP-Throughput-Analysis
 
+
+
 ## Project Overview
 
 This project involves testing and analyzing a TCP Congestion Control algorithm designed to optimize network throughput, specifically for high-latency satellite connections. Developed in collaboration with Prof. Claypool and PhD candidate Maryam Ataei, the algorithm aims to improve upon the traditional Hystart algorithm by adjusting the slow-start phase to exit just before packet loss occurs, thereby enhancing overall network performance.
 
 The included scripts automate the process of configuring and running network experiments, gathering performance metrics, and analyzing the results. By simplifying experiment setup, data collection, and analysis, these scripts allow for efficient comparisons between different algorithm configurations and facilitate detailed insights into network performance.
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/283a736c-92c7-4515-bbf7-a2f9fb893cbb" width="40%" />
+    <img src="https://github.com/user-attachments/assets/d6023bbc-f6f5-4d7e-a24b-e49eeaeda03e" width="40%" />
+</div>
 
 ## Why These Scripts Are Useful
 
@@ -94,5 +101,13 @@ pip install pandas matplotlib pyxlsb
   python3 scripts/graph_throughputs.py
   ```
   This script generates graphs of throughput data, saved in `logs/<YOUR RUN>/graphs`.
+  
+Use these scripts to compare configurations and visualize the impact of the modified TCP Congestion Control algorithm on network throughput.
 
 Use these scripts to compare configurations and visualize the impact of the modified TCP Congestion Control algorithm on network throughput.
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/26cfaceb-08c3-43f1-9772-92d21fca9878" width="40%" />
+</div>
+
+
